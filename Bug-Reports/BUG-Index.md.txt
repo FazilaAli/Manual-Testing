@@ -1,0 +1,24 @@
+# Bug Reports Index
+
+This folder contains detailed bug reports identified during manual and exploratory testing sessions.  
+Each bug follows a professional format with ID, severity, reproducibility, root cause hypothesis, and suggested fixes.  
+
+---
+
+| ID      | Title (short)                                   | Severity  | Priority | Status | Report Link |
+|---------|------------------------------------------------|-----------|----------|--------|-------------|
+| BUG-001 | Registration accepts weak passwords            | High      | P1       | Open   | [View](BUG-001-registration-weak-password.md) |
+| BUG-002 | Unlimited invalid login attempts (no lockout)  | High      | P1       | Open   | [View](BUG-002-login-no-lockout.md) |
+| BUG-003 | Registration/Login mobile view misaligned      | Medium    | P2       | Open   | [View](BUG-003-mobile-view-misalignment.md) |
+| BUG-004 | Product API returns all products (no pagination)| High     | P1       | Open   | [View](BUG-004-api-pagination-missing.md) |
+| BUG-005 | Search endpoint is case-sensitive              | Medium    | P2       | Open   | [View](BUG-005-search-case-sensitive.md) |
+| BUG-006 | Special characters in search cause HTTP 500    | High      | P1       | Open   | [View](BUG-006-search-special-char-500.md) |
+| BUG-007 | Missing parameters return 200 instead of 400   | Medium    | P2       | Open   | [View](BUG-007-missing-params-200.md) |
+| BUG-008 | Cart allows zero/negative quantities           | High      | P1       | Open   | [View](BUG-008-cart-quantity.md) |
+| BUG-009 | Postal code field accepts alphabets            | Medium    | P2       | Open   | [View](BUG-009-postal-code-validation.md) |
+| BUG-010 | Credit card field accepts invalid formats      | Critical  | P1       | Open   | [View](BUG-010-credit-card-validation.md) |
+
+
+> Notes:
+> - Each row links to a detailed bug file in this folder.
+> - Severity / priority are suggested based on business impact and security risk.
